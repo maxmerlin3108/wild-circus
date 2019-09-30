@@ -1,0 +1,177 @@
+body {
+color:white;
+background-color:black;
+background-image:url("https://i.ibb.co/FWCwKx1/circus1.jpg");
+background-repeat:no-repeat;
+background-size: 1000px;
+background-attachment:fixed;
+width: 50%;
+margin: auto;
+
+}
+
+.clock {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #33FFFF;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+};
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 6px;
+   
+}
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+h1 {
+    color: #ffc100;
+    text-align: center;
+		font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    margin-top: 9%; 
+}
+
+h2 {
+    color: #ffc100;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+    text-shadow: px px px #3b6397;
+    text-align: center;
+}
+
+h4 {
+  font-family: 'Amatic SC', ;
+  font-size: 20px;
+  margin: 3% 3% 2% 10%;  
+  width:80%;
+  text-align: center;
+   }
+  
+/*========== Header ==========*/
+nav{
+  font-size: 3.5em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  text-align: center;
+  }
+  
+
+#burgerMenu{
+  width: 15px;
+  height: 18px;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+}
+
+.logo {
+  width: 350px;
+  height: 250px;
+  text-align: center;
+}
+
+.logo-row {
+    width: 250px;
+    margin: 150px;
+}
+
+/*--- 1. Performances ---*/
+
+ul,caption {
+  text-align: left;
+  display: flex;
+  
+  }
+
+img{
+  margin-right: 60px;
+  width: 350px;
+  height:250px;
+  
+ 
+}
+
+.caption {
+    font-size: 1.em;
+    text-align: center;
+}
+
+
+
+/*--- 4. Prices ---*/
+
+tr,td {  
+    border: 2px inset #d4a713;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+    height:50px;
+    
+}
+
+iframe {
+width:100%;
+height:100%;
+display:table-cell;
+ 
+}
+
+/*--- 4. Contact Us ----*/
+
+label{
+  display: block;
+ 
+}
+
+input, textarea{
+  width: 300px;
+  margin-bottom: 20px;
+}
+  
+input{
+  padding: 0% 5% 0% 5%;
+  height: 35px;
+  background-color: #E6E6E6;
+  border: 0px;
+  border-radius: 25px;
+}
+  
+textarea{
+  padding: 5% 5% 0% 5%;
+  background-color: #E6E6E6;
+  border: 0px;
+  border-radius: 25px;
+  height: 100px;
+}
+
+.cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+button{
+  background: #c73a1a;
+  border-radius: 25px;
+  color: white;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-bottom: 34px;
+}
